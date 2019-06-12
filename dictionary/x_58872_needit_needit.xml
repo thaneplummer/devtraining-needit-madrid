@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label=" NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label=" NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="20" type="collection">
         <element label="Nickname" max_length="50" name="nickname" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_5" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="System administrator" sequence="0" value="System administrator"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
                 <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
@@ -11,6 +12,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What needed" max_length="40" name="u_choice_6" type="string">
             <choice>
+                <element inactive_on_update="false" label="2019-06-07 00:00:00" sequence="0" value="2019-06-07 00:00:00"/>
                 <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
                 <element inactive_on_update="false" label="Human Resources 2" sequence="1" value="hr2"/>
                 <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>

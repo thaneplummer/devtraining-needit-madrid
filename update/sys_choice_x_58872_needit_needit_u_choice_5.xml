@@ -24,6 +24,25 @@
             <element>u_choice_5</element>
             <hint/>
             <inactive>false</inactive>
+            <label>System administrator</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-30 16:54:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15a2f2e01b313300c6f52136ec4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-30 16:54:39</sys_updated_on>
+            <value>System administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Facilities</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
